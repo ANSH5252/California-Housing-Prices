@@ -7,7 +7,7 @@ model = pickle.load(open("model.pkl", "rb"))
 scaler = pickle.load(open("scaler.pkl", "rb"))
 feature_columns = pickle.load(open("features.pkl", "rb")) 
 
-st.title(":blue[California House Price Prediction] 🏠")
+st.markdown("<div style='font-size:45px; color: cyan;'>🏠 California House Price Prediction</div>", unsafe_allow_html=True)
 
 median_income = st.number_input("Median Income (in $1000s)", min_value=0.0, max_value=20.0, value=5.0)
 housing_median_age = st.number_input("Housing Median Age", min_value=1, max_value=100, value=30)
