@@ -1,0 +1,68 @@
+💾 Dataset Feature Descriptions 
+1. longitude
+    → Geographic coordinate that shows how far west or east the property is located.
+
+    • Lower (more negative) = further west (closer to Pacific Ocean).
+
+    • Example: -124.3 is more west than -121.5.
+
+2. latitude
+    → Geographic coordinate that shows how far north or south the property is.
+
+    • Higher values = further north.
+
+    • Example: 38.5 is more north than 33.9.
+
+3. housingMedianAge
+    → The median age (in years) of all houses in a block.
+
+    • A lower number means newer homes.
+
+    • Example: 5 means half the houses are newer than 5 years, half older.
+
+4. totalRooms
+    → Total number of rooms (bedrooms + other rooms) in all houses within a housing block.
+
+    • Not per house, but sum for the whole block.
+
+5. totalBedrooms
+    → Total number of bedrooms only in the housing block.
+
+    • This can be used to compute ratios like bedrooms per room.
+
+6. population
+    → Total number of people living in the housing block.
+
+    • Can help understand population density when combined with households.
+
+7. households
+    → Total number of separate housing units (households) in a block.
+
+    • A household = a single group/family living together.
+
+8. medianIncome
+    → Median annual income of households in the block (in tens of thousands USD).
+
+    • 3.5 = $35,000
+
+    • 6.2 = $62,000
+
+9. medianHouseValue
+    → Median market value of homes in the block (in US dollars).
+
+    • Target variable for prediction in housing price models.
+
+10. oceanProximity
+    → Categorical value showing how close the block is to the ocean.
+
+    • Examples:
+
+        • 'NEAR OCEAN'
+
+        • 'INLAND'
+
+        • 'ISLAND'
+
+        • 'NEAR BAY'
+
+        • '<1H OCEAN' (less than 1 hour from ocean)
