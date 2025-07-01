@@ -71,43 +71,43 @@ California-Housing-Prices/
 └── README.md               # Project overview
 ```
 ## 📥 How to Run
--  1. Clone the Repository
+-   Clone the Repository
 ```
 git clone https://github.com/ANSH5252/California-Housing-Prices.git
 cd California-Housing-Prices
 ```
-- 2. Install Dependencies
+-  Install Dependencies
 ```
 pip install -r requirements.txt
 ```
-- 3. Launch Streamlit Web App
+-  Launch Streamlit Web App
 ```
 streamlit run app.py
 ```
 ## 🧠 How It Works
-- 1. Load & Explore Data
+-  Load & Explore Data
   - Uses median values across blocks (rows ≈ 20k)
 
   - Visualizes trends by geography (latitude/longitude)
 
-- 2. Data Cleaning
+-  Data Cleaning
   - Handles missing values (especially in total_bedrooms)
 
   - Removes extreme outliers
 
   - Converts categorical data if present (like ocean proximity)
 
-- 3. Feature Engineering
+-  Feature Engineering
   -  Creates rooms_per_household, bedrooms_ratio, population_per_household, etc.
 
   -  Uses scaling and transformation on skewed features
 
-- 4. Model Training
+-  Model Training
   - Applies ML models with train-test split and cross-validation
 
   -  Selects best-performing model based on evaluation metrics
 
-- 5. Model Deployment
+-  Model Deployment
   - Saves the trained model and features using pickle
 
   - Web app takes user input for features and displays predicted price
@@ -132,7 +132,11 @@ Output:
 ## 📸 Screenshots
 ![image](https://github.com/user-attachments/assets/81277421-98dd-4af1-9984-34082002ded6)
 ![image](https://github.com/user-attachments/assets/f95fa589-79b9-4c24-9d5a-dcf199590941)
+
+
 [California House Price Prediction Demo.webm](https://github.com/user-attachments/assets/f20597f2-bd2c-4da4-8805-4c76045e3fa4)
+
+
 ## 🤝 Contributing
 Contributions, suggestions, and feature requests are welcome!  
 Feel free to:
@@ -149,5 +153,8 @@ Feel free to:
 This project is licensed under the MIT License.
 
 ## 🧑‍💻 Author
-Anshuman Dash  
+Anshuman Dash 
+
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/ANSH5252)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/anshuman-dash-739793351/)
